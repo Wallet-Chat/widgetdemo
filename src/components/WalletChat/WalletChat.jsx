@@ -10,7 +10,7 @@ export default function WalletChatWidget(){
     return (
         <div id="wallet-chat-widget__container">
             {isOpen && (
-                <iframe id="wallet-chat-widget" src="http://localhost:3000"></iframe>
+                <iframe id="wallet-chat-widget" src="https://app.walletchat.fun"></iframe>
             )}
             
             <ButtonOverlay isOpen={isOpen} clickHandler={clickHandler}/>
