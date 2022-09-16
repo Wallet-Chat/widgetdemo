@@ -19,7 +19,7 @@ export default function WalletChatWidget(){
                     minHeight:isOpen?"":"0px",
                     minWidth:isOpen?"":"0px"
                     // display: isOpen?"block":"none"
-                }} src="http://localhost:3000"></iframe>
+                }} src={url}></iframe>
             <ButtonOverlay isOpen={isOpen} clickHandler={clickHandler}/>
         </div>
     )

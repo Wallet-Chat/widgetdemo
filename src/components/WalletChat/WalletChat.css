@@ -8,7 +8,7 @@
     min-height: 480px;
     /* bottom: 7.5vh;
     right: 0;  200ms 200ms*/  
-    transition: width ease 0.5s, min-width ease 0.5s, height ease 0.5s, min-height ease 0.5s;
+    transition: width ease 0.25s, min-width ease 0.25s, height ease 0.25s, min-height ease 0.25s;
 }
 #wallet-chat-widget__container{
     position: absolute;
