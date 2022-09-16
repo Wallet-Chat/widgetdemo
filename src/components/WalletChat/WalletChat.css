@@ -7,12 +7,13 @@
     min-width: 400px;
     min-height: 480px;
     /* bottom: 7.5vh;
-    right: 0; */
-    transition: width 200ms ease 0s, height ease 0s, max-height ease 0s;
+    right: 0;  200ms 200ms*/  
+    transition: width ease 0.5s, min-width ease 0.5s, height ease 0.5s, min-height ease 0.5s;
 }
 #wallet-chat-widget__container{
     position: absolute;
     bottom: 1vh;
     right: 2vw;
     z-index: 2147483000;
+    user-select: none;
 }
