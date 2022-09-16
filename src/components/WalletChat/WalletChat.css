@@ -1,0 +1,13 @@
+#wallet-chat-widget{
+    border: none;
+    /* min-height: 98vh; */
+    position: absolute;
+    bottom: 5vh;
+    right: 2vw;
+    width: 15vw;
+    height: 50vh;
+
+    /* min-width: 300px; */
+    min-width: 400px;
+    min-height: 480px;
+}
