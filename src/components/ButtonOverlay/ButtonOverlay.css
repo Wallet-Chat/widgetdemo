@@ -1,0 +1,52 @@
+.popupButton__container {
+
+    position: relative;
+    margin-top: 12px;
+    height: 60px;
+}
+
+.popupButton {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform-origin: center center;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+
+    background: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0 / 6%) 0px 1px 6px 0px, rgb(0 0 0 / 16%) 0px 2px 32px 0px;
+}
+
+.icon {
+    position:absolute;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    transition: transform 0.16s linear 0s, opacity 0.08s linear 0s;
+    opacity: 0;
+    transform: rotate(30deg) scale(0);
+    cursor: pointer;
+    height: 100%;
+
+}
+
+.icon svg {
+    /* color: white; */
+    fill: white;
+    width: 28px;
+    height: 32px;
+}
+
+.activeIcon {
+    opacity: 1;
+    transform: rotate(0deg);
+}
