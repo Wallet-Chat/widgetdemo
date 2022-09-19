@@ -6,6 +6,7 @@
     /* min-width: 300px; */
     min-width: 400px;
     min-height: 480px;
+    border-radius: 15px;
     /* bottom: 7.5vh;
     right: 0;  200ms 200ms*/  
     transition: width ease 0.25s, min-width ease 0.25s, height ease 0.25s, min-height ease 0.25s;
