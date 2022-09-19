@@ -8,6 +8,7 @@ import About from './pages/about';
 import Blogs from './pages/blogs';
 import BoredApeYC from './pages/assets/ethereum/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3047';
 import Contact from './pages/contact';
+import Defi from './pages/fakeDefi';
 
 function App() {
 return (
@@ -18,6 +19,7 @@ return (
 		<Route path='/about' element={<About/>} />
 		<Route path='/contact' element={<Contact/>} />
 		<Route path='/blogs' element={<Blogs/>} />
+		<Route path='/fakeDefi' element={<Defi/>} />
 		<Route path='/assets/ethereum/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3047' element={<BoredApeYC/>} />
 	</Routes>
 	</Router>

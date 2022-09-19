@@ -16,6 +16,9 @@ return (
 		<NavLink to="/blogs" activeStyle>
 			Blogs
 		</NavLink>
+		<NavLink to="/fakeDefi" activeStyle>
+			Defi
+		</NavLink>
 		<NavLink to="/assets/ethereum/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/3047" activeStyle>
 			BoredApeYC
 		</NavLink>
