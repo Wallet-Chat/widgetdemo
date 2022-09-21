@@ -1,6 +1,6 @@
 #wallet-chat-widget{
     /* position: absolute; */
-    border: none;
+    /* border: none; */
     width: 15vw;
     height: 50vh;
     /* min-width: 300px; */
@@ -9,6 +9,7 @@
     border-radius: 15px;
     /* bottom: 7.5vh;
     right: 0;  200ms 200ms*/  
+    border: 1px solid black;
     transition: width ease 0.25s, min-width ease 0.25s, height ease 0.25s, min-height ease 0.25s;
 }
 #wallet-chat-widget__container{
