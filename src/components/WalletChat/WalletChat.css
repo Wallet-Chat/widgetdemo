@@ -4,9 +4,11 @@
     width: 15vw;
     height: 50vh;
     /* min-width: 300px; */
-    min-width: 400px;
+    min-width: 410px;
     min-height: 480px;
     border-radius: 15px;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     /* bottom: 7.5vh;
     right: 0;  200ms 200ms*/  
     border: 1px solid black;
