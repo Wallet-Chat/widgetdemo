@@ -11,8 +11,9 @@
     overflow-x: hidden; /* Hide horizontal scrollbar */
     /* bottom: 7.5vh;
     right: 0;  200ms 200ms*/  
-    border: 1px solid black;
+    /* border: 1px solid black; */
     transition: width ease 0.25s, min-width ease 0.25s, height ease 0.25s, min-height ease 0.25s;
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.5))
 }
 #wallet-chat-widget__container{
     position: absolute;

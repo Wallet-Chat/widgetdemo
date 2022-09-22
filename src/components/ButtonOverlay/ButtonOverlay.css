@@ -20,7 +20,8 @@
     cursor: pointer;
 
     background: rgb(0, 0, 0);
-    box-shadow: rgb(0 0 0 / 6%) 0px 1px 6px 0px, rgb(0 0 0 / 16%) 0px 2px 32px 0px;
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.5))
+    /* box-shadow: rgb(0 0 0 / 6%) 0px 1px 6px 0px, rgb(0 0 0 / 16%) 0px 2px 32px 0px; */
 }
 
 .icon {
