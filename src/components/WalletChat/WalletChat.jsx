@@ -4,7 +4,7 @@ import ButtonOverlay from "../ButtonOverlay/ButtonOverlay"
 import "./WalletChat.css"
 export default function WalletChatWidget(){
     const [isOpen, setIsOpen] = useState(false);
-    const url = "https://app.walletchat.fun/"//"app.walletchat.fun" //http://localhost:3000
+    const url = "https://v1.walletchat.fun/"//"app.walletchat.fun" //http://localhost:3000
     const clickHandler = (e) =>{
         setIsOpen(!isOpen)
     }
