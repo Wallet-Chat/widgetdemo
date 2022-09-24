@@ -8,7 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 https://eth-global2022.vercel.app - we build this site 100% during the hackathon.
 
 ### WalletChat Widget with Collapsible Button
-For this hackathon we created and integrated a Chat Widget.  The basis of the logic of chat functionality for the widget is open source at: https://github.com/cryptoKevinL/walletchat/, which is 100% open source.
+For this hackathon we created and integrated a Chat Widget.  We focused on the UI, first and foremost, but then also wanted to add functionality to the existing API for our needs.  The logic of chat functionality for the widget is open source at: https://github.com/cryptoKevinL/walletchat/, which is 100% open source.
+
+#### Additions to the API during EthGlobal2022:
+- Added JWT authentication to the UI, to inegrate with V1 of the API.
+- Added LIT encryption to DMs
 
 ### NPM package for the Wallet-to-Wallet Integration
 https://github.com/hjunleon/react-wallet-chat/tree/master - this was built 100% during the hackathon.
