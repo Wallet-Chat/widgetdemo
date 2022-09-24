@@ -2,7 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  From here, we modified the site a bit, to add some navigation tabs; however we mainly focused on integration of a wallet-to-wallet chat widget, based on some open source APIs and repositories.  
 
-## Available Scripts
+## What we worked on for this hackathon
+
+### Vercel Project Testing Website
+https://eth-global2022.vercel.app - we build this site 100% during the hackathon.
+
+### WalletChat Widget with Collapsible Button
+For this hackathon we created and integrated a Chat Widget.  The basis of the logic of chat functionality for the widget is open source at: https://github.com/cryptoKevinL/walletchat/, which is 100% open source.
+
+### NPM package for the Wallet-to-Wallet Integration
+https://github.com/hjunleon/react-wallet-chat/tree/master - this was built 100% during the hackathon.
+
+## Available Scripts to Build and Run the Website Locally
 
 In the project directory, you can run:
 
