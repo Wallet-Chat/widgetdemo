@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+# WalletChat EthGlobal2022 Submission
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  From here, we modified the site a bit, to add some navigation tabs; however we mainly focused on integration of a wallet-to-wallet chat widget, based on some open source APIs and repositories.  
 
-## Available Scripts
+## What we worked on for this hackathon
+
+### Vercel Project Testing Website
+https://eth-global2022.vercel.app - we build this site 100% during the hackathon.
+
+### WalletChat Widget with Collapsible Button
+For this hackathon we created and integrated a Chat Widget.  We focused on the UI, first and foremost, but then also wanted to add functionality to the existing API for our needs.  The logic of chat functionality for the widget is open source at: https://github.com/cryptoKevinL/walletchat/, which is 100% open source.
+
+#### Additions to the API during EthGlobal2022:
+- Added JWT authentication to the UI, to inegrate with V1 of the API.
+- Added LIT encryption to DMs
+
+### NPM package for the Wallet-to-Wallet Integration
+https://github.com/hjunleon/react-wallet-chat/tree/master - this was built 100% during the hackathon.
+
+## Available Scripts to Build and Run the Website Locally
 
 In the project directory, you can run:
 
@@ -26,45 +41,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
