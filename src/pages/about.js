@@ -5,8 +5,8 @@ const About = () => {
 return (
 	<div>
 	<h1>
-		GeeksforGeeks is a Computer
-		Science portal for geeks.
+		EthGlobal is a cool place where developers
+		Are enabled to learn for prizes and fun!
 	</h1>
         <WalletChatWidget />
 	</div>
