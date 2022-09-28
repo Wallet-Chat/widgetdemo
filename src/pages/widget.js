@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import WalletChatWidget from '../components/WalletChat/WalletChat';
 
-const Defi = () => {
+const Widget = () => {
     const [subPage, setSubPage] = useState("Swap");
     return (
         <div className='relative h-[90vh]'>
@@ -33,7 +33,7 @@ const Defi = () => {
                             0.0
                         </div>
                         <div className='bg-pink-200 text-pink-800 rounded-3xl text-center p-4'>
-                            Connect Wallet
+                            Just For Test!
                         </div>
                     </div>
                 </div>
@@ -55,5 +55,5 @@ const Defi = () => {
     );
 };
 
-export default Defi;
+export default Widget;
 

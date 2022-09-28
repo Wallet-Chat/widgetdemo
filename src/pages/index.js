@@ -1,9 +1,13 @@
 import React from 'react';
+import WalletChatWidget from '../components/WalletChat/WalletChat';
 
 const Home = () => {
 return (
 	<div>
-	<h1>Welcome to GeeksforGeeks</h1>
+	<div>
+	<h1>Welcome to WalletChat!</h1>
+	</div>
+	<WalletChatWidget />
 	</div>
 );
 };
