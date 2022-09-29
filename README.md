@@ -1,8 +1,6 @@
-WalletChat Widget Demo
+#WalletChat Widget Demo
 
-Coming Soon: npm package for easy install!
-
-Current steps:
+###Current steps:
 
 Include src/components/WalletChat/, and src/compoments/ButtonOverlay/
 
@@ -13,3 +11,5 @@ And include in your page source:
 Please see src/page/widget.js for a simple example of the integration of step 2)
 
 Feel free to reach out to contact@walletchat.fun for any help, or on Twitter @wallet_chat
+
+##Coming Soon: npm package for easy install!
