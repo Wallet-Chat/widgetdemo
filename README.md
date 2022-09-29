@@ -6,7 +6,7 @@ Live version at: https://demo.walletchat.fun/widget
 
 1) Include *src/components/WalletChat/*, and *src/compoments/ButtonOverlay/* in your source
 
-2) On any page you which to have the chat widget active include: 
+2) On any page you wish to have the chat widget active, include: 
 
 ```import WalletChatWidget from '/components/WalletChat/WalletChat'```
 
