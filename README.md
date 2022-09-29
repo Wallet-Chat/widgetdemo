@@ -16,6 +16,6 @@ And include in your page source:
 
 Please see src/page/widget.js for a simple example of the integration of step 2)
 
-Feel free to reach out to contact@walletchat.fun for any help, or on Twitter http://twitter..com/wallet_chat
+Feel free to reach out to contact@walletchat.fun for any help, or on Twitter https://twitter.com/wallet_chat
 
 ## Coming Soon: npm package for easy install!
