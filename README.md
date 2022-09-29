@@ -1,5 +1,7 @@
 # WalletChat Widget Demo
 
+Live version at: https://demo.walletchat.fun/widget
+
 ## Current steps:
 
 1) Include *src/components/WalletChat/*, and *src/compoments/ButtonOverlay/* in your source
