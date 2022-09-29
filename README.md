@@ -1,15 +1,19 @@
-#WalletChat Widget Demo
+# WalletChat Widget Demo
 
-###Current steps:
+## Current steps:
 
-Include src/components/WalletChat/, and src/compoments/ButtonOverlay/
+1) Include *src/components/WalletChat/*, and *src/compoments/ButtonOverlay/* in your source
 
-On any page you which to have the chat widget active: import WalletChatWidget from '/components/WalletChat/WalletChat';
+2) On any page you which to have the chat widget active include: 
 
-And include in your page source:
+```import WalletChatWidget from '/components/WalletChat/WalletChat'```
+
+And include in your page source: 
+
+```<WalletChatWidget />```
 
 Please see src/page/widget.js for a simple example of the integration of step 2)
 
-Feel free to reach out to contact@walletchat.fun for any help, or on Twitter @wallet_chat
+Feel free to reach out to contact@walletchat.fun for any help, or on Twitter http://twitter..com/wallet_chat
 
-##Coming Soon: npm package for easy install!
+## Coming Soon: npm package for easy install!
