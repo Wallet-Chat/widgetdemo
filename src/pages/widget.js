@@ -4,6 +4,7 @@ import WalletChatWidget from '../components/WalletChat/WalletChat';
 const Widget = () => {
     const [subPage, setSubPage] = useState("Swap");
     return (
+        <div>
         <div className='relative h-[90vh]'>
             <div className='flex justify-around mt-4'>
                 <div className='flex rounded-3xl bg-white p-1'>
@@ -20,7 +21,6 @@ const Widget = () => {
                     })}
                 </div>
             </div>
-
             <div className='flex justify-center items-center h-1/2'>
                     <div className='w-1/3 h-1/2 bg-white p-4 rounded-3xl'>
                         <div className='mb-4'>
@@ -45,12 +45,13 @@ const Widget = () => {
                     background: "radial-gradient(50% 50% at 50% 50%, rgba(252, 7, 125, 0.063) 0px, rgba(255, 255, 255, 0) 100%)",
                     backgroundBlendMode: "multiply, normal",
                     pointerEvents: "none",
-                    zIndex: "-1"
+                    zIndex: "-1",
                 }
             }>
 
             </div>
-            <WalletChatWidget />
+        </div>
+        <WalletChatWidget />
         </div>
     );
 };
