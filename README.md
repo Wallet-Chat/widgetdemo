@@ -6,12 +6,23 @@ Youtube demo: https://www.youtube.com/watch?v=SlqW3zGNsto
 
 ## Who is this for
 
-- You are a web3 web app that wishes integrate messaging functionality
+- You are a web3 web app that wishes to integrate messaging functionality
 - Replace current user-to-user or user-to-app messaging workflow which happen inside discord / telegram
 - Provide a much better UX that links directly to the user's wallet, which they are already using to interact with your dapp
-- Provide a much more secure experience than having to share one's wallet id inside discord or using external links
+- Provide a much more secure experience than having to share one's wallet id inside discord or clicking external links
 - Enable users to communicate without leaving your web app (increasing engagement & time spent within the app)
-- Differentiate yourself from the competition
+- Differentiate yourself from competition still stuck in the web 2.5 world
+
+## Roadmap
+
+- Support token-gated group messaging (available in our web app)
+- Enhanced spam filtering, conditional messaging permissions
+- User-to-dapp support helpdesk
+- User analytics dashboard
+- Optional message notifications inside email / telegram
+- ...and much more
+
+Talk to us to discuss the details of this and your requirements!
 
 ## Custom Integration Steps
 
