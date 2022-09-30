@@ -1,6 +1,9 @@
+Developed by https://www.walletchat.fun/
+
 # WalletChat Widget Demo
 
 Live version at: https://demo.walletchat.fun/widget
+Youtube demo: https://www.youtube.com/watch?v=SlqW3zGNsto
 
 ## Custom Integration Steps:
 
