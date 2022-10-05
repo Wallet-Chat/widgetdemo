@@ -35,6 +35,7 @@ Talk to us to discuss the details of this and your requirements!
 And include in your page source: 
 
 ```<WalletChatWidget />```
+
 3) Place wc_logo.png in /public
 
 Please see src/page/widget.js for a simple example of the integration of step 2
