@@ -26,17 +26,18 @@ Talk to us to discuss the details of this and your requirements!
 
 ## Custom Integration Steps
 
-1) Include *src/components/WalletChat/*, and *src/compoments/ButtonOverlay/* in your source
+1) Include *src/components/WalletChat/*, and *src/components/ButtonOverlay/* in your source
 
 2) On any page you wish to have the chat widget active, include: 
 
-```import WalletChatWidget from '/components/WalletChat/WalletChat'```
+```import WalletChatWidget from './components/WalletChat/WalletChat'```
 
 And include in your page source: 
 
 ```<WalletChatWidget />```
+3) Place wc_logo.png in /public
 
-Please see src/page/widget.js for a simple example of the integration of step 2)
+Please see src/page/widget.js for a simple example of the integration of step 2
 
 Feel free to reach out to contact@walletchat.fun for any help, or on Twitter https://twitter.com/wallet_chat
 
