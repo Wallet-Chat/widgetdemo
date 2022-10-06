@@ -1,6 +1,6 @@
 # WalletChat Widget Demo
 
-Live version at: https://demo.walletchat.fun/widget and https://marketplacedemo.walletchat.fun
+Live version at: https://demo.walletchat.fun/widget
 
 Youtube demo: https://www.youtube.com/watch?v=SlqW3zGNsto
 
