@@ -4,6 +4,10 @@ Live version at: https://demo.walletchat.fun/widget
 
 Youtube demo: https://www.youtube.com/watch?v=SlqW3zGNsto
 
+<img src="220930 widget demo.gif" width="350" title="widget demo">
+
+(click > to play gif)
+
 ## Who is this for
 
 - You are a web3 web app that wishes to integrate messaging functionality
