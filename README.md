@@ -48,4 +48,6 @@ Feel free to reach out to contact@walletchat.fun for any help, or on Twitter htt
 
 ## Coming Soon: npm package for easy install!
 
+Enquire for our API documentation.
+
 Developed with ❤ by https://www.walletchat.fun/
