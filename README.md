@@ -31,10 +31,12 @@ Talk to us to discuss the details of this and your requirements!
 ## Custom Integration Steps
 
 1) Install NPM package "react-wallet-chat"
+```yarn add react-wallet-chat``` if using yarn instead of npm
 
 2) On any page you wish to have the chat widget active, import: 
 
 ```import {WalletChatWidget} from 'react-wallet-chat'```
+
 ```import 'react-wallet-chat/dist/index.css'```
 
 And include in your page source: 
