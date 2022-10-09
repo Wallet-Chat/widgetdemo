@@ -14,6 +14,7 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
+    "react-wallet-chat": "^1.1.1",
     "styled-components": "^5.3.5",
     "tailwindcss": "^3.1.8",
     "web-vitals": "^2.1.4"

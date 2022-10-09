@@ -7463,6 +7463,11 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-wallet-chat@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-wallet-chat/-/react-wallet-chat-1.1.1.tgz#ce731dd1acc18b82da4f7a91e1f250526fa6241e"
+  integrity sha512-RMb5GSMfk7IIZexZseo/iqrAhybUucHOPf5WWx942+6C5Y8kuuswuYbjKq3rU44Eeq3Ztju1rVbLfSG+LoyAtQ==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

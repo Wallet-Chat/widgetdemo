@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import WalletChatWidget from '../components/WalletChat/WalletChat';
+import {WalletChatWidget} from 'react-wallet-chat'
+import 'react-wallet-chat/dist/index.css'
 
 const Widget = () => {
     const [subPage, setSubPage] = useState("Swap");

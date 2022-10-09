@@ -1,5 +1,6 @@
 import React from 'react';
-import WalletChatWidget from '../components/WalletChat/WalletChat';
+import {WalletChatWidget} from 'react-wallet-chat'
+import 'react-wallet-chat/dist/index.css'
 
 const Home = () => {
 return (
