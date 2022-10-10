@@ -44,9 +44,9 @@ And include in your page source:
 
 ```<WalletChatWidget />```
 
-Feel free to reach out to contact@walletchat.fun for any help, or on Twitter https://twitter.com/wallet_chat
+## We're looking forward to working with you!
 
-## Coming Soon: npm package for easy install!
+Feel free to reach out to contact@walletchat.fun for any help, or on Twitter https://twitter.com/wallet_chat
 
 Enquire for our API documentation.
 
