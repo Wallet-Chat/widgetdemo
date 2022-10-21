@@ -44,6 +44,10 @@ And include in your page source:
 
 ```<WalletChatWidget />```
 
+If we have provided a custom web app for you, it can be specified with the local .env variable:
+
+```REACT_APP_APP_URL=<custom>.walletchat.fun```
+
 ## We're looking forward to working with you!
 
 Feel free to reach out to contact@walletchat.fun for any help, or on Twitter https://twitter.com/wallet_chat
