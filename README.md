@@ -48,6 +48,26 @@ If we have provided a custom web app for you, it can be specified with the local
 
 ```REACT_APP_APP_URL=<custom>.walletchat.fun```
 
+To implement a "Chat With Owner" type feature as demonstrated at https://marketplacedemo.walletchat.fun/NFTMarketPlace :
+
+1) Ensure your NPM package is up to date (yarn upgrade react-wallet-chat)
+2) Declare the functions:
+
+```  const [ownerAddr, setOwnerAddr] = useState(null);
+  const [isWidgetOpen, setIsWidgetOpen] = useState(false)```
+
+3) Set the address and widget open status upon your desired event, for example: 
+
+```<Tooltip title="Chat With Owner">
+                    <FileSearchOutlined
+                      onClick={() => {
+                          setOwnerAddr('0x17FA0A61bf1719D12C08c61F211A063a58267A19')
+                          setIsWidgetOpen(true)
+                        }
+                      }
+                    />
+                  </Tooltip>,```
+
 ## We're looking forward to working with you!
 
 Feel free to reach out to contact@walletchat.fun for any help, or on Twitter https://twitter.com/wallet_chat
