@@ -44,10 +44,13 @@ And include in your page source:
 
 ```<WalletChatWidget />```
 
+### Custom Endpoints for Our Customers
 If we have provided a custom web app for you, it can be specified with the local .env variable:
 
 ```REACT_APP_APP_URL=<custom>.walletchat.fun```
 
+
+### Chat With Owner 
 To implement a "Chat With Owner" type feature as demonstrated at https://marketplacedemo.walletchat.fun/NFTMarketPlace :
 
 1) Ensure your NPM package is up to date (yarn upgrade react-wallet-chat)
