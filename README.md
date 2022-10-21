@@ -71,6 +71,9 @@ const [isWidgetOpen, setIsWidgetOpen] = useState(false)
   />
 </Tooltip>
  ```
+4) Include the WalletChat Widget with parameters:
+
+```<WalletChatWidget chatAddr={ownerAddr} isOpen={isWidgetOpen} setIsOpen={setIsWidgetOpen}/>```
 
 ## We're looking forward to working with you!
 
