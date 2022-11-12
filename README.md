@@ -57,8 +57,8 @@ To implement a "Chat With Owner" type feature as demonstrated at https://marketp
 2) Declare the functions:
 
 ```
-const [ownerAddr, setOwnerAddr] = useState(null)
-const [isWidgetOpen, setIsWidgetOpen] = useState(false)
+const [chatAddr, setChatAddr] = useState("")
+const [widgetState, setWidgetState] = useState({})
 ```
 
 3) Set the address with setOwnerAddr() and widget open status with setIsWidgetOpen() upon your desired event, for example: 
@@ -67,8 +67,14 @@ const [isWidgetOpen, setIsWidgetOpen] = useState(false)
 <Tooltip title="Chat With Owner">
   <FileSearchOutlined
     onClick={() => {
-        setOwnerAddr('0x17FA0A61bf1719D12C08c61F211A063a58267A19')
-        setIsWidgetOpen(true)
+        setChatAddr('0x17FA0A61bf1719D12C08c61F211A063a58267A19')
+        setWidgetState(
+        {
+           ...widgetState, 
+          chatAddr,
+          isOpen: true
+        }
+      )
       }
     }
   />
@@ -76,7 +82,7 @@ const [isWidgetOpen, setIsWidgetOpen] = useState(false)
  ```
 4) Include the WalletChat Widget with parameters:
 
-```<WalletChatWidget chatAddr={ownerAddr} isOpen={isWidgetOpen} setIsOpen={setIsWidgetOpen}/>```
+```<WalletChatWidget widgetState={widgetState}/>```
 
 ## We're looking forward to working with you!
 
