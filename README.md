@@ -57,7 +57,6 @@ To implement a "Chat With Owner" type feature as demonstrated at https://marketp
 2) Declare the functions:
 
 ```
-const [chatAddr, setChatAddr] = useState("")
 const [widgetState, setWidgetState] = useState({})
 ```
 
