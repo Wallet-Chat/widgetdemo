@@ -67,11 +67,10 @@ const [widgetState, setWidgetState] = useState({})
 <Tooltip title="Chat With Owner">
   <FileSearchOutlined
     onClick={() => {
-        setChatAddr('0x17FA0A61bf1719D12C08c61F211A063a58267A19')
         setWidgetState(
         {
            ...widgetState, 
-          chatAddr,
+          chatAddr: '0x17FA0A61bf1719D12C08c61F211A063a58267A19',
           isOpen: true
         }
       )
