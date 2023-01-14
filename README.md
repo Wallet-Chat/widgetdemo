@@ -1,6 +1,6 @@
 # WalletChat Widget Demo
 
-Live version at: https://demo.walletchat.fun/widget
+Live version at: https://marketplacedemo.walletchat.fun/NFTMarketPlace
 
 Youtube demo: https://www.youtube.com/watch?v=SlqW3zGNsto
 
