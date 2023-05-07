@@ -30,15 +30,15 @@ Talk to us to discuss the details of this and your requirements!
 
 ## Custom Integration Steps
 
-1) Install NPM package "react-wallet-chat"
+1) Install NPM package "react-wallet-chat-v0"
 
-```yarn add react-wallet-chat``` if using yarn instead of npm
+```yarn add react-wallet-chat-v0``` if using yarn instead of npm
 
 2) On any page you wish to have the chat widget active, import: 
 
-```import {WalletChatWidget} from 'react-wallet-chat'```
+```import {WalletChatWidget} from 'react-wallet-chat-v0'```
 
-```import 'react-wallet-chat/dist/index.css'```
+```import 'react-wallet-chat-v0/dist/index.css'```
 
 And include in your page source: 
 
@@ -53,7 +53,7 @@ If we have provided a custom web app for you, it can be specified with the local
 ### Chat With Owner 
 To implement a "Chat With Owner" type feature as demonstrated at https://marketplacedemo.walletchat.fun/NFTMarketPlace :
 
-1) Ensure your NPM package is up to date (yarn upgrade react-wallet-chat)
+1) Ensure your NPM package is up to date (yarn upgrade react-wallet-chat-v0)
 2) Declare the functions:
 
 ```
